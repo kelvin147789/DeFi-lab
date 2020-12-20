@@ -112,6 +112,7 @@ body .cybr-btn  {
   --primary-lightness: 50;
   --color: hsl(0, 0%, 100%);
   --font-size: 26px;
+  /* Color of button background */
   --shadow-primary-hue: 180;
   --label-size: 9px;
   --shadow-secondary-hue: 60;
