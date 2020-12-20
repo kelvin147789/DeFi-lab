@@ -6,12 +6,15 @@ import './index.css'
 const App = () => {
   return (
     <div>
+      <div className="title">YFD Lab</div>
     <Navbar>
       <NavItem icon="😊"/>
       <NavItem icon="👾"/>
       <NavItem icon="🐤"/>
     </Navbar>
+
     <Context></Context>
+    
     </div>
 
  
@@ -22,6 +25,7 @@ const App = () => {
 const Navbar= (props)=> {
   return(
     <nav className="navbar">
+  
       <ul className="navbar-nav">{props.children}</ul>
     </nav>
   
@@ -32,8 +36,11 @@ const Navbar= (props)=> {
 const NavItem= (props)=> {
   return(
     <li className="nav-item">
+
+      
       <a href="#" className="icon-button">
         {props.icon}
+        
       </a>
     </li>
   
@@ -44,7 +51,7 @@ const NavItem= (props)=> {
 const Context = (props)=> {
   return(
     <div className="context">
-      Welcome to YFD Labs, enjoy experiment here.
+      Welcome to YFD Lab, enjoy experiment here.
 
      <div>
      <button class="cybr-btn">
