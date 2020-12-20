@@ -5,11 +5,17 @@ import './index.css'
 
 const App = () => {
   return (
+    <div>
     <Navbar>
       <NavItem icon="😊"/>
-      <NavItem icon="😊"/>
-      <NavItem icon="😊"/>
+      <NavItem icon="👾"/>
+      <NavItem icon="🐤"/>
     </Navbar>
+    <Context></Context>
+    </div>
+
+ 
+   
   )
 }
 
@@ -33,6 +39,23 @@ const NavItem= (props)=> {
   
 
   );
+}
+
+const Context = (props)=> {
+  return(
+    <div className="context">
+      Welcome to YFD Labs, enjoy experiment here.
+
+     <div>
+     <button class="cybr-btn">
+  Start<span aria-hidden>_</span>
+  <span aria-hidden class="cybr-btn__glitch">Start_</span>
+  <span aria-hidden class="cybr-btn__tag">R25</span>
+</button>
+
+     </div>
+    </div>
+  )
 }
 
 export default App
