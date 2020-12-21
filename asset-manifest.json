@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/DeFi-lab/static/css/main.b2aca9e3.chunk.css",
-    "main.js": "/DeFi-lab/static/js/main.4c816ac2.chunk.js",
-    "main.js.map": "/DeFi-lab/static/js/main.4c816ac2.chunk.js.map",
+    "main.css": "/DeFi-lab/static/css/main.c0b39baf.chunk.css",
+    "main.js": "/DeFi-lab/static/js/main.2c20f4bf.chunk.js",
+    "main.js.map": "/DeFi-lab/static/js/main.2c20f4bf.chunk.js.map",
     "runtime-main.js": "/DeFi-lab/static/js/runtime-main.22fe96e8.js",
     "runtime-main.js.map": "/DeFi-lab/static/js/runtime-main.22fe96e8.js.map",
-    "static/js/2.5eb7523b.chunk.js": "/DeFi-lab/static/js/2.5eb7523b.chunk.js",
-    "static/js/2.5eb7523b.chunk.js.map": "/DeFi-lab/static/js/2.5eb7523b.chunk.js.map",
+    "static/js/2.4050a027.chunk.js": "/DeFi-lab/static/js/2.4050a027.chunk.js",
+    "static/js/2.4050a027.chunk.js.map": "/DeFi-lab/static/js/2.4050a027.chunk.js.map",
     "index.html": "/DeFi-lab/index.html",
-    "static/css/main.b2aca9e3.chunk.css.map": "/DeFi-lab/static/css/main.b2aca9e3.chunk.css.map",
-    "static/js/2.5eb7523b.chunk.js.LICENSE.txt": "/DeFi-lab/static/js/2.5eb7523b.chunk.js.LICENSE.txt"
+    "static/css/main.c0b39baf.chunk.css.map": "/DeFi-lab/static/css/main.c0b39baf.chunk.css.map",
+    "static/js/2.4050a027.chunk.js.LICENSE.txt": "/DeFi-lab/static/js/2.4050a027.chunk.js.LICENSE.txt",
+    "static/media/arrow.2e552680.svg": "/DeFi-lab/static/media/arrow.2e552680.svg",
+    "static/media/bell.f0c76da2.svg": "/DeFi-lab/static/media/bell.f0c76da2.svg",
+    "static/media/bolt.bbfd3d7a.svg": "/DeFi-lab/static/media/bolt.bbfd3d7a.svg",
+    "static/media/caret.17f0a4fb.svg": "/DeFi-lab/static/media/caret.17f0a4fb.svg",
+    "static/media/chevron.52254b8e.svg": "/DeFi-lab/static/media/chevron.52254b8e.svg",
+    "static/media/cog.8c5b9138.svg": "/DeFi-lab/static/media/cog.8c5b9138.svg",
+    "static/media/messenger.39261066.svg": "/DeFi-lab/static/media/messenger.39261066.svg",
+    "static/media/plus.d5a88a59.svg": "/DeFi-lab/static/media/plus.d5a88a59.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.22fe96e8.js",
-    "static/js/2.5eb7523b.chunk.js",
-    "static/css/main.b2aca9e3.chunk.css",
-    "static/js/main.4c816ac2.chunk.js"
+    "static/js/2.4050a027.chunk.js",
+    "static/css/main.c0b39baf.chunk.css",
+    "static/js/main.2c20f4bf.chunk.js"
   ]
 }
