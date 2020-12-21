@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/YFD-lab/static/css/main.b2aca9e3.chunk.css",
-    "main.js": "/YFD-lab/static/js/main.115ba34b.chunk.js",
-    "main.js.map": "/YFD-lab/static/js/main.115ba34b.chunk.js.map",
-    "runtime-main.js": "/YFD-lab/static/js/runtime-main.39c80949.js",
-    "runtime-main.js.map": "/YFD-lab/static/js/runtime-main.39c80949.js.map",
-    "static/js/2.3e3e09f6.chunk.js": "/YFD-lab/static/js/2.3e3e09f6.chunk.js",
-    "static/js/2.3e3e09f6.chunk.js.map": "/YFD-lab/static/js/2.3e3e09f6.chunk.js.map",
+    "main.js": "/YFD-lab/static/js/main.4c816ac2.chunk.js",
+    "main.js.map": "/YFD-lab/static/js/main.4c816ac2.chunk.js.map",
+    "runtime-main.js": "/YFD-lab/static/js/runtime-main.01e4eaa4.js",
+    "runtime-main.js.map": "/YFD-lab/static/js/runtime-main.01e4eaa4.js.map",
+    "static/js/2.5eb7523b.chunk.js": "/YFD-lab/static/js/2.5eb7523b.chunk.js",
+    "static/js/2.5eb7523b.chunk.js.map": "/YFD-lab/static/js/2.5eb7523b.chunk.js.map",
     "index.html": "/YFD-lab/index.html",
     "static/css/main.b2aca9e3.chunk.css.map": "/YFD-lab/static/css/main.b2aca9e3.chunk.css.map",
-    "static/js/2.3e3e09f6.chunk.js.LICENSE.txt": "/YFD-lab/static/js/2.3e3e09f6.chunk.js.LICENSE.txt"
+    "static/js/2.5eb7523b.chunk.js.LICENSE.txt": "/YFD-lab/static/js/2.5eb7523b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.39c80949.js",
-    "static/js/2.3e3e09f6.chunk.js",
+    "static/js/runtime-main.01e4eaa4.js",
+    "static/js/2.5eb7523b.chunk.js",
     "static/css/main.b2aca9e3.chunk.css",
-    "static/js/main.115ba34b.chunk.js"
+    "static/js/main.4c816ac2.chunk.js"
   ]
 }
