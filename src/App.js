@@ -6,7 +6,7 @@ import './index.css'
 const App = () => {
   return (
     <div>
-      <div className="title">YFD Lab</div>
+      <div className="title">DeFi Lab</div>
     <Navbar>
       <NavItem icon="😊"/>
       <NavItem icon="👾"/>
@@ -51,7 +51,7 @@ const NavItem= (props)=> {
 const Context = (props)=> {
   return(
     <div className="context">
-      Welcome to YFD Lab, enjoy experiment here.
+      Welcome to DeFi Lab, enjoy experiment here.
 
      <div>
      <button class="cybr-btn">
