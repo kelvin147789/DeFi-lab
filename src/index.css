@@ -1,20 +1,15 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
-
-
 
 body {
   margin: 0;
   font-family: 'VT323', monospace;
-  color: #0D2847;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
 }
 
 
@@ -23,9 +18,7 @@ code {
   --bg-accent: #484a4d;
   --text-color: #dadce1;
   --nav-size: 60px;
-  --border-size: 1px;
-  --border-style: solid;
-  --border-color: #474a4d;
+  --border: 1px solid #474a4d;
   --border-radius: 8px;
   --speed: 500ms; 
 }
@@ -93,47 +86,85 @@ a {
 }
 
 
+/* Dropdown Menu */
 
+.dropdown {
+  position: absolute;
+  top: 58px;
+  width: 300px;
+  transform: translateX(-45%);
+  background-color: var(--bg);
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  overflow: hidden;
+  transition: height var(--speed) ease;
+}
 
+.menu {
+  width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.context {
-  padding: 2rem;
-  justify-content: center;
+.menu-item {
+  height: 50px;
+  display: flex;
   align-items: center;
-  text-align: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item .icon-button {
+  margin-right: 0.5rem;
 }
 
 
-/* Cyber Button */
-
-@font-face {
-  font-family: Cyber;
-  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
-  font-display: swap;
+.menu-item .icon-button:hover {
+  filter: none;
 }
 
-* {
-  box-sizing: border-box;
+.menu-item:hover {
+  background-color: #525357;
+}
+
+.icon-right {
+  margin-left: auto;
+}
+
+/* CSSTransition classes  */
+.menu-primary-enter {
+  position: absolute;
+  transform: translateX(-110%);
+}
+.menu-primary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+.menu-primary-exit {
+  position: absolute;
+}
+.menu-primary-exit-active {
+  transform: translateX(-110%);
+  transition: all var(--speed) ease;
 }
 
 
-
-body .cybr-btn  {
-  margin-top: 2rem;
+.menu-secondary-enter {
+  transform: translateX(110%);
 }
+.menu-secondary-enter-active {
+  transform: translateX(0%);
+  transition: all var(--speed) ease;
+}
+.menu-secondary-exit {
+
+}
+.menu-secondary-exit-active {
+  transform: translateX(110%);
+  transition: all var(--speed) ease;
+}
+
+/* Cyber button */
 
 .cybr-btn {
   --primary: hsl(var(--primary-hue), 85%, calc(var(--primary-lightness, 50) * 1%));
@@ -172,6 +203,8 @@ body .cybr-btn  {
   height: 75px;
   line-height: 75px;
   transition: background 0.2s;
+  
+  
 }
 
 .cybr-btn:hover {
@@ -310,6 +343,16 @@ body .cybr-btn  {
 
 /* Cyber Button */
 
+.context {
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  
+  
+}
+
 .title
 {
 color: #FFD03C;
@@ -317,4 +360,8 @@ font-size: 2.0rem;
 position: absolute;
 padding: 0.75rem;
 
+}
+
+.spacing-bottom {
+ padding-bottom: 1rem;
 }
