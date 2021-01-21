@@ -10,6 +10,7 @@ import {ReactComponent as ChevronIcon} from './icons/chevron.svg'
 import {ReactComponent as ArrowIcon} from './icons/arrow.svg'
 import {ReactComponent as BoltIcon} from './icons/bolt.svg'
 import { Icon } from '@material-ui/core';
+import { MetaMaskButton,Flex, Box } from 'rimble-ui';
 
 import {CSSTransition} from 'react-transition-group';
 
@@ -167,8 +168,37 @@ function Context(props) {
   <span aria-hidden class="cybr-btn__glitch">Start_</span>
   <span aria-hidden class="cybr-btn__tag">R25</span>
 </button>
-
      </div>
+
+{/* Separate line */}
+
+<div className="separateLine">
+<Flex>
+  <Box p={0.2} width={1 / 2} color="salmon" bg="black">
+    Separate
+  </Box>
+  <Box p={0.2} width={1 / 2} color="white" bg="salmon">
+  line
+  </Box>
+</Flex>
+</div>
+
+
+
+{/* Separate line */}
+
+
+{/* Connect Metamsk wallet */}
+
+    <div className="metaMaskButton">
+    <div>MetaMask Wallet Connect:</div>
+    <MetaMaskButton>Connect with MetaMask</MetaMaskButton>
+    </div>
+
+
+{/* Connect Metamsk wallet */}
+
+    
     </div>
   )
 }

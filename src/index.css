@@ -18,7 +18,7 @@ code {
   --bg-accent: #484a4d;
   --text-color: #dadce1;
   --nav-size: 60px;
-  --border: 1px solid #474a4d;
+  --border: 1px;
   --border-radius: 8px;
   --speed: 500ms; 
 }
@@ -224,6 +224,7 @@ a {
   bottom: 0;
   clip-path: var(--clip);
   z-index: -1;
+  overflow:hidden;
 }
 
 .cybr-btn:before {
@@ -248,6 +249,8 @@ a {
 }
 
 .cybr-btn__glitch {
+  overflow: hidden;
+  display:none;
   position: absolute;
   top: calc(var(--border) * -1);
   left: calc(var(--border) * -1);
@@ -257,7 +260,7 @@ a {
   text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
   clip-path: var(--clip);
   animation: glitch 2s infinite;
-  display: none;
+  
 }
 
 .cybr-btn:hover .cybr-btn__glitch {
@@ -265,6 +268,8 @@ a {
 }
 
 .cybr-btn__glitch:before {
+  overflow: hidden;
+  
   content: '';
   position: absolute;
   top: calc(var(--border) * 1);
@@ -364,4 +369,12 @@ padding: 0.75rem;
 
 .spacing-bottom {
  padding-bottom: 1rem;
+}
+
+.metaMaskButton {
+  padding-top: 2%;
+}
+
+.separateLine{
+  padding-top: 2%;
 }
