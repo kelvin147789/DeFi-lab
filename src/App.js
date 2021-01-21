@@ -192,7 +192,7 @@ function Context(props) {
 
     <div className="metaMaskButton">
     <div>MetaMask Wallet Connect:</div>
-    <MetaMaskButton>Connect with MetaMask</MetaMaskButton>
+    <MetaMaskButton className="spacingTop">Connect with MetaMask</MetaMaskButton>
     </div>
 
 
