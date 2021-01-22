@@ -163,7 +163,7 @@ function DropdownMenu() {
             leftIcon={<CogIcon />}
             rightIcon={<ChevronIcon />}
             goToMenu="settings">
-            Settings
+            Tutorial
           </DropdownItem>
 
 
@@ -171,7 +171,7 @@ function DropdownMenu() {
             leftIcon="🦧"
             rightIcon={<ChevronIcon />}
             goToMenu="animals">
-            Animals
+            Project
           </DropdownItem>
 
 
