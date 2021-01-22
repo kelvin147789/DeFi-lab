@@ -11,17 +11,77 @@ import {ReactComponent as ArrowIcon} from './icons/arrow.svg'
 import {ReactComponent as BoltIcon} from './icons/bolt.svg'
 import { Icon } from '@material-ui/core';
 import { MetaMaskButton,Flex, Box } from 'rimble-ui';
-
 import {CSSTransition} from 'react-transition-group';
+import Web3 from 'web3';
+
 
 
 
 function App() {
+
+
+  // State
+
+  let [account,setAccount] = useState("");
+
+  // State
+
+    useEffect(() => {
+      ethEnabled();
+    
+    }
+    )
+
+
+
+
+const ethEnabled = async() => {
+  
+  if (window.web3) {
+    window.web3 = new Web3(window.web3.currentProvider);
+    await window.ethereum.enable();
+
+    const web3js = await window.web3;
+    const accounts = await web3js.eth.getAccounts();
+    setAccount(accounts[0]);  
+    
+  }
+
+
+  console.log(0);
+  return false;
+}
+
+const refreshPage = ()=> {
+  window.location.reload(false);
+}
+
+
+
+
+  // function
+
+ 
+
+ 
+
+ 
+
+
+    // function
+
+
+
+  
+
+
+
   return (
     
     <div>
 
 <div className="title">DeFi Lab</div>
+
     <Navbar>
       <NavItem icon={<PlusIcon />} />
       <NavItem icon={<BellIcon />} />
@@ -33,7 +93,7 @@ function App() {
 
      
     </Navbar>
-    <Context></Context>
+    <Context accounts={account} ethEnabled={ethEnabled} refreshPage={refreshPage}></Context>
     </div>
     
 
@@ -163,9 +223,9 @@ function Context(props) {
       </div>
 
      <div>
-     <button class="cybr-btn">
-  Start<span aria-hidden>_</span>
-  <span aria-hidden class="cybr-btn__glitch">Start_</span>
+     <button class="cybr-btn" onClick={props.refreshPage}>
+  REFRESH<span aria-hidden>_</span>
+  <span aria-hidden class="cybr-btn__glitch">REFRESH_</span>
   <span aria-hidden class="cybr-btn__tag">R25</span>
 </button>
      </div>
@@ -192,8 +252,14 @@ function Context(props) {
 
     <div className="metaMaskButton">
     <div>MetaMask Wallet Connect:</div>
-    <MetaMaskButton className="spacingTop">Connect with MetaMask</MetaMaskButton>
+    
+    <MetaMaskButton className="spacingTop" onClick={props.ethEnabled}>Connect with Wallet</MetaMaskButton>
+    <div className="spacingTop walletAddress">{props.accounts}</div>
+    
+
+    {/* {account} */}
     </div>
+    
 
 
 {/* Connect Metamsk wallet */}
