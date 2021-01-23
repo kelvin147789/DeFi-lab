@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/DeFi-lab/static/css/main.9fa7c0a1.chunk.css",
-    "main.js": "/DeFi-lab/static/js/main.3269a029.chunk.js",
-    "main.js.map": "/DeFi-lab/static/js/main.3269a029.chunk.js.map",
+    "main.css": "/DeFi-lab/static/css/main.db267895.chunk.css",
+    "main.js": "/DeFi-lab/static/js/main.e03aac12.chunk.js",
+    "main.js.map": "/DeFi-lab/static/js/main.e03aac12.chunk.js.map",
     "runtime-main.js": "/DeFi-lab/static/js/runtime-main.22fe96e8.js",
     "runtime-main.js.map": "/DeFi-lab/static/js/runtime-main.22fe96e8.js.map",
-    "static/js/2.77386986.chunk.js": "/DeFi-lab/static/js/2.77386986.chunk.js",
-    "static/js/2.77386986.chunk.js.map": "/DeFi-lab/static/js/2.77386986.chunk.js.map",
+    "static/js/2.e2d957ac.chunk.js": "/DeFi-lab/static/js/2.e2d957ac.chunk.js",
+    "static/js/2.e2d957ac.chunk.js.map": "/DeFi-lab/static/js/2.e2d957ac.chunk.js.map",
     "index.html": "/DeFi-lab/index.html",
-    "static/css/main.9fa7c0a1.chunk.css.map": "/DeFi-lab/static/css/main.9fa7c0a1.chunk.css.map",
-    "static/js/2.77386986.chunk.js.LICENSE.txt": "/DeFi-lab/static/js/2.77386986.chunk.js.LICENSE.txt",
+    "static/css/main.db267895.chunk.css.map": "/DeFi-lab/static/css/main.db267895.chunk.css.map",
+    "static/js/2.e2d957ac.chunk.js.LICENSE.txt": "/DeFi-lab/static/js/2.e2d957ac.chunk.js.LICENSE.txt",
     "static/media/arrow.2e552680.svg": "/DeFi-lab/static/media/arrow.2e552680.svg",
     "static/media/bell.f0c76da2.svg": "/DeFi-lab/static/media/bell.f0c76da2.svg",
     "static/media/bolt.bbfd3d7a.svg": "/DeFi-lab/static/media/bolt.bbfd3d7a.svg",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.22fe96e8.js",
-    "static/js/2.77386986.chunk.js",
-    "static/css/main.9fa7c0a1.chunk.css",
-    "static/js/main.3269a029.chunk.js"
+    "static/js/2.e2d957ac.chunk.js",
+    "static/css/main.db267895.chunk.css",
+    "static/js/main.e03aac12.chunk.js"
   ]
 }
