@@ -10,7 +10,7 @@ import {ReactComponent as ChevronIcon} from './icons/chevron.svg'
 import {ReactComponent as ArrowIcon} from './icons/arrow.svg'
 import {ReactComponent as BoltIcon} from './icons/bolt.svg'
 import { Icon } from '@material-ui/core';
-import { MetaMaskButton,Flex, Box } from 'rimble-ui';
+import { MetaMaskButton,Flex, Box, EthAddress,Loader,Select,Field} from 'rimble-ui';
 import {CSSTransition} from 'react-transition-group';
 import Web3 from 'web3';
 
@@ -22,7 +22,7 @@ function App() {
 
   // State
 
-  let [account,setAccount] = useState("");
+  let [account,setAccount] = useState("CONNECT YOUR WALLET");
 
   // State
 
@@ -82,10 +82,12 @@ const refreshPage = ()=> {
 
 <div className="title">DeFi Lab</div>
 
+
     <Navbar>
-      <NavItem icon={<PlusIcon />} />
+      
+      {/* <NavItem icon={<PlusIcon />} />
       <NavItem icon={<BellIcon />} />
-      <NavItem icon={<MessengerIcon />} />
+      <NavItem icon={<MessengerIcon />} /> */}
 
       <NavItem icon={<CaretIcon />}>
         <DropdownMenu></DropdownMenu>
@@ -216,8 +218,16 @@ function DropdownMenu() {
 }
 
 function Context(props) {
+
+
+
+
   return(
     <div className="context">
+      <div className="walletAddress" >
+        <EthAddress address={props.accounts}/>
+
+      </div>
       <div className="spacing-bottom">
       Welcome to DeFi Lab, enjoy experiment here.
       </div>
@@ -254,7 +264,7 @@ function Context(props) {
     <div>MetaMask Wallet Connect:</div>
     
     <MetaMaskButton className="spacingTop" onClick={props.ethEnabled}>Connect with Wallet</MetaMaskButton>
-    <div className="spacingTop walletAddress">{props.accounts}</div>
+   
     
 
     {/* {account} */}
@@ -264,8 +274,24 @@ function Context(props) {
 
 {/* Connect Metamsk wallet */}
 
+
+<div className="loader">
+{/* <Loader/> */}
+</div>
+
+
+<div>
+
+</div>
+
+
+    
     
     </div>
+
+   
+
+    
   )
 }
 

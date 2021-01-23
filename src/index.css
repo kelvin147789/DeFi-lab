@@ -389,5 +389,14 @@ padding: 0.75rem;
 }
 
 .walletAddress {
-  color: #0DAD6B;
+
+  width:20%;
+  color:#FFD03C
+
 }
+
+.loader{
+  padding-left: 50%;
+  padding-top: 2%;
+}
+
